@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8; /* Set off-white background color */
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    margin-right: auto; /* Move the logo to the left */
+}
+
+.logo-text {
+    font-size: 45px; /* Adjust the font size as needed */
+    font-weight: bolder; /* Make the text bolder */
+    display: block; /* Make the text a block element */
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    background-color: #f8f8f8; /* Off-white background color for the list bar */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded look */
+    padding: 10px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: saddlebrown;
+    text-transform: uppercase;
+}
+
+.appointment-button {
+    text-decoration: none;
+    color: #fff; /* Text color for the button */
+    background-color: saddlebrown; /* Button background color */
+    padding: 10px 20px;
+    border-radius: 5px; /* Optional: Add border-radius for a rounded button */
+}
+
+.call-to-action {
+    background-color: papayawhip; /* Pinkish-white background color */
+    padding: 15px; /* Increased padding for better visibility */
+    text-align: center;
+}
+
+.call-to-action ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action ul li {
+    margin: 0 15px;
+}
+
+.call-to-action ul li a {
+    text-decoration: none;
+    color: saddlebrown;
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.background-image {
+    width: 90%; /* Adjust width as needed */
+    height: 70%;
+    opacity: 0.3; /* Set opacity to make the image dull */
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Text color on the image */
+    font-size: 70px; /* Adjust the font size as needed */
+    text-decoration: underline ; /* Make the underline thicker */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+
+/* ... Your existing CSS ... */
+
+.search-bar {
+    margin-top: 20px; /* Adjust the margin as needed */
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 160px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ... Your existing CSS ... */
+
+.welcome-text {
+    margin-top: 70px; /* Adjust space above the welcome text */
+    margin-bottom: 20px; /* Adjust space below the welcome text */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Set to sans-serif */
+}
+
+.fa-magnifying-glass {
+    margin: 60px;
+    color: black;
+}
+
+.content-block {
+    background-color: beige; /* Background color for the content block */
+    padding: 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size for overall text */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Adjust margin as needed */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded look */
+}
+
+.content-left {
+    width: 48%;
+    padding-right: 20px; /* Add padding to the right side to create space */
+}
+
+.content-right {
+    width: 48%;
+    padding-left: 20px; /* Add padding to the left side to create space */
+}
+
+.content-left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content-right h2 {
+    font-size: 20px; /* Reduce font size for the heading */
+    color: saddlebrown;
+    margin-bottom: 10px;
+    font-family: serif; /* Set font family to serif */
+}
+
+.content-right ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px; /* Reduce font size for the list items */
+}
+
+.content-right ul li {
+    margin-bottom: 8px;
+    font-family: serif; /* Set font family to serif */
+}
+
+.content-right ul li {
+    margin-bottom: 8px;
+    font-family: serif; /* Set font family to serif */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.content-left h2 {
+    color: saddlebrown; /* Headline color */
+}
+
+.content-left p {
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.learn-more-button {
+    background-color: saddlebrown; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.learn-more-button:hover {
+    background-color: #ff6347; /* Change color on hover, adjust as needed */
+}
+
+.content-right img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* ... Your existing CSS ... */
+
+.content-block {
+    background-color: #f8f8f8; /* Background color for the content block */
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust margin as needed */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded look */
+}
+
+.content-left {
+    width: 48%; /* Adjust the width as needed */
+}
+
+.content-left img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content-right {
+    width: 52%; /* Adjust the width as needed */
+}
+
+.content-right form {
+    max-width: 600px; /* Adjust the form width as needed */
+    margin: 0 auto;
+    
+}
+
+.content-right h2 {
+    color: saddlebrown; /* Headline color */
+    white-space: nowrap; 
+    font-size: 50px;
+    margin-bottom: 28px;
+}
+
+/* ... Your existing CSS ... */
+
+.content-right label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 2px;
+    color: saddlebrown;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.content-right input,
+.content-right textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px; /* Adjust font size as needed */
+}
+
+
+.content-right button.submit-button {
+    background-color: saddlebrown; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center
+    border-radius: 5px;
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.content-left {
+    width: 50%;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content-left h2 {
+    font-size: 50px;
+    color: saddlebrown;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.content-left ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Times';
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.content-left {
+    width: 50%;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.content-left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content-right h2 {
+    font-size: 45px; /* Increase font size for the heading */
+    color: saddlebrown;
+    margin-bottom: 10px;
+    font-family: 'Poppins'
+}
+
+.content-right ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Times'/* Increase font size for the list items */
+}
+
+.content-right ul li {
+    margin-bottom: 8px;
+}
+
+
+.content-left ul li {
+    margin-bottom: 8px;
+}
+
+
+.content-right button.submit-button:hover {
+    background-color: #ff6347; /* Change color on hover, adjust as needed */
+}
+
